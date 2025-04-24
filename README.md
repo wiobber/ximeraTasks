@@ -40,6 +40,3 @@ Now suppose that 1 of these 6 actually has 5 answerables in it. Then each of tho
 
 Now suppose that we have a nested series of environments — say, 3 levels of nesting — one with 7 answerables, one with 8 answerables, and one with 9 answerables. Each of these answerables is worth  
 1/(6 × (7 + 8 + 9)).
-```
-
-Let me know if you'd like grammar, style, or clarity improvements too — I can help clean that up as well.
