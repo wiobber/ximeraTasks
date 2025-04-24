@@ -22,10 +22,10 @@ The file secondActivity.tex contains more questions
 
 All answerables (\answer, multipleChoice, selectAll, wordChoice) must be coded inside a LaTeX environment, e.g. problem, exercise, theorem, example, any environment - bascially a "box."
 
-The page then has a lot of environments, some have answerables, some don't. 
-
-**The total page score is determined by the number of environments with answerables**
-(Technically, the total page score is 1, with each enviroment contining an answerable being worth 1/(number of environments with answerables). If environments are nested, (boxes within boxes) Any answerable within the nests trggers this to be counted. 
+If a page has no answerables, students get completion credit for landing on the page.
+If the page has environments, some with answerables, then
+**the total page score is determined by the number of environments with answerables.**
+Technically, the total page score is 1, with each enviroment contining an answerable being worth 1/(number of environments with answerables). If environments are nested, (boxes within boxes) Any answerable within the nests triggers this to be counted. 
 
 
 When nested environments have multiple answerables, say n answerables, even within different levels of nesting, we want the total score of the problem to be determined by the total number of answerables. So each answerable within this environment would be worth 1/((number of environments with answerables))*(1/(number of answerables within this environment))
