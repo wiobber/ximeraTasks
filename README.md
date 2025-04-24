@@ -22,7 +22,9 @@ The file secondActivity.tex contains more questions
 
 All answerables (\answer, multipleChoice, selectAll, wordChoice) must be coded inside a LaTeX environment, e.g. problem, exercise, theorem, example, any environment - bascially a "box."
 
-If a page has no answerables, students get completion credit for landing on the page.
+If a page has no answerables, students get completion credit for landing on the page. I suppose if I could "ask for the Moon," I'd like for **students to have to scroll to somewhere near the bottom of the content.** 
+
+
 If the page has environments, some with answerables, then
 **the total page score is determined by the number of environments with answerables.**
 Technically, the total page score is 1, with each enviroment contining an answerable being worth 1/(number of environments with answerables). If environments are nested, (boxes within boxes) Any answerable within the nests triggers this to be counted. 
